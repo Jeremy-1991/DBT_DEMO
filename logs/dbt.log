@@ -1,0 +1,30 @@
+[0m12:49:58.762882 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015EC09C5190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015EC09C40E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015EC09C4290>]}
+
+
+============================== 12:49:58.767892 | bc575aba-e0a7-45b1-9e0d-d716d320bd78 ==============================
+[0m12:49:58.767892 [info ] [MainThread]: Running with dbt=1.7.9
+[0m12:49:58.768894 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Krystal-Fox\\.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt init', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m12:49:58.771918 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': WindowsPath('C:/Users/Krystal-Fox/.dbt')}
+[0m12:49:58.771918 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m12:50:15.473566 [debug] [MainThread]: Starter project path: C:\Users\Krystal-Fox\Documents\Wild Code School\Formation IA\DBT_DEMO\my-dbt-env\Lib\site-packages\dbt\include\starter_project
+[0m12:50:15.495752 [info ] [MainThread]: 
+Your new dbt project "dbt_projet" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m12:50:15.497752 [info ] [MainThread]: Setting up your profile.
+[0m12:50:18.809268 [info ] [MainThread]: Profile dbt_projet written to C:\Users\Krystal-Fox\.dbt\profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m12:50:18.812239 [debug] [MainThread]: Command `dbt init` succeeded at 12:50:18.811233 after 20.15 seconds
+[0m12:50:18.812239 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015EC08B9AC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015EC0807920>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015EC09F87A0>]}
+[0m12:50:18.813231 [debug] [MainThread]: Flushing usage events
