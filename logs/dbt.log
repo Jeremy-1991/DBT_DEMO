@@ -28,3 +28,17 @@ Happy modeling!
 [0m12:50:18.812239 [debug] [MainThread]: Command `dbt init` succeeded at 12:50:18.811233 after 20.15 seconds
 [0m12:50:18.812239 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015EC08B9AC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015EC0807920>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015EC09F87A0>]}
 [0m12:50:18.813231 [debug] [MainThread]: Flushing usage events
+[0m14:38:48.377104 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027AA53729C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027AA5370C20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027AA5371460>]}
+
+
+============================== 14:38:48.382134 | bc6e7126-1375-4c15-8844-a6f0d3b37850 ==============================
+[0m14:38:48.382134 [info ] [MainThread]: Running with dbt=1.7.9
+[0m14:38:48.383107 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': 'C:\\Users\\Krystal-Fox\\.dbt', 'log_path': 'logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt run', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m14:38:48.384109 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\Krystal-Fox\Documents\Wild Code School\Formation IA\DBT_DEMO\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m14:38:48.386108 [debug] [MainThread]: Command `dbt run` failed at 14:38:48.386108 after 0.16 seconds
+[0m14:38:48.387106 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027AA50EF0E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027AA502CEF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027AA5373530>]}
+[0m14:38:48.387106 [debug] [MainThread]: Flushing usage events
