@@ -2,20 +2,25 @@ version: 2
 
 models:
     - name: stg_orders
+      description: Order data with basic cleaning and transformation applied, one row per order.
       columns:
         - name: order_id
+          description: The unique key for each order.
           tests:
             - not_null
             - unique
         - name: customer_id
+          description: The key of the customer who placed the order.
           tests:
             - not_null
             - relationships:
                 to: ref('stg_customers')
                 field: customer_id
         - name: order_date
+          description: The date of the order.
           tests:
             - not_null
         - name: store_id
+          description: "{{ doc('store_id_description') }}"
           tests:
             - not_null
