@@ -1,0 +1,17 @@
+version: 2
+
+models:
+    - name: customer_status
+      description: Add status information to customers based on their order history.
+      columns:
+        - name: customer_status
+          description: The name of the customer's status.
+          tests:
+            - not_null
+            - unique
+        - name: min_order_count
+          description: Minimum number of orders placed by the customer to get this status.
+          tests:
+            - not_null
+        - name: max_order_count
+          description: Maximum number of orders placed by the customer to get this status.
